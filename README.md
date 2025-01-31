@@ -1,5 +1,11 @@
 ```npm i
-npm start```
+npm start
+```
 
 Todo task done for interview
-``` Hit an Api```
+``` Hit an Api
+    Read the data
+    Add it to the table
+    Delete the required data
+    Drag to modify.
+```
