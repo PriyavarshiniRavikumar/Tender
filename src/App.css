@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.home{
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:8px;
+  border: 2px red;
+}
+.col1{
+  background-color: rgb(73, 73, 180);
+  border-right: groove 5px;
+  height: 100%;
+}
+.col2{
+  background-color: rgb(194, 194, 243);
+  /* border: groove 5px white; */
+}
+.draggCard{
+  margin: 8px;
+}
+.card{
+  background-color:rgb(220, 209, 230);
+  border:5px solid ;
+  color: black;
+}
+.delbtndiv{
+  text-align: right;
+}
+.delbtn{
+  background-color: red;
+  font-size:larger;
+  
+}
